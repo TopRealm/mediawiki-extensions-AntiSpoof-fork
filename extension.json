@@ -11,9 +11,6 @@
 	"GroupPermissions": {
 		"sysop": {
 			"override-antispoof": true
-		},
-		"bureaucrat": {
-			"override-antispoof": true
 		}
 	},
 	"AvailableRights": [
