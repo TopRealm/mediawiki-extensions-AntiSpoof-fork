@@ -6,7 +6,9 @@
 			"NguoiDungKhongDinhDanh",
 			"NguyenHung",
 			"Quenhitran",
-			"Vinhtantran"
+			"Vinhtantran",
+			"NguyenHung",
+			"Hide on Rosé"
 		]
 	},
 	"antispoof-desc": "Cấm không được mở tài khoản dưới tên người dùng sử dụng hơn một hệ thống chữ viết, gây nhầm lẫn, và tương tự với tên người dùng khác",
