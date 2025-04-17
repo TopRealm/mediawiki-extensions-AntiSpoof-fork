@@ -4,10 +4,9 @@
  * @package AntiSpoof
  */
 
-'use strict';
-
+/* eslint-env node, es6 */
 module.exports = function ( grunt ) {
-	const conf = grunt.file.readJSON( 'extension.json' );
+	var conf = grunt.file.readJSON( 'extension.json' );
 
 	grunt.loadNpmTasks( 'grunt-banana-checker' );
 	grunt.loadNpmTasks( 'grunt-eslint' );
@@ -15,10 +14,12 @@ module.exports = function ( grunt ) {
 	grunt.initConfig( {
 		eslint: {
 			options: {
-				cache: true,
-				fix: grunt.option( 'fix' )
+				cache: true
 			},
-			all: [ '.' ]
+			all: [
+				'**/*.js{,on}',
+				'!{vendor,node_modules}/**'
+			]
 		},
 		banana: conf.MessagesDirs
 	} );
