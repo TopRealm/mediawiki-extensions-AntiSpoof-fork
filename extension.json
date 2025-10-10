@@ -8,14 +8,6 @@
 	"requires": {
 		"MediaWiki": ">= 1.43"
 	},
-	"GroupPermissions": {
-		"sysop": {
-			"override-antispoof": true
-		},
-		"bureaucrat": {
-			"override-antispoof": true
-		}
-	},
 	"AvailableRights": [
 		"override-antispoof"
 	],
